@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@200&display=swap');
+/*Texto de TEXTO*/
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@200&family=Ubuntu&display=swap');
+/*Texto de TITULO*/
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+:root{
+    --texto-letra:  'Sora', sans-serif;
+    --texto-titulo:  'Ubuntu', sans-serif;
+}
+
+.pagina1{
+    width: 100%;
+    height: 694px;
+    animation: fondo 5s;
+}
+
+@keyframes fondo{
+    0%{
+        background-color: rgb(196, 192, 192);
+    }
+    100%{
+        background-color: #fff;
+    }
+}
+
+.pagina1-1{
+    width: 100%;
+    height: 10%;
+}
+
+.pagina1-2{
+    width: 100%;
+    height: 80%;
+}
+
+.pagina1-3{
+    width: 100%;
+    height: 10%;
+}
+
+.pagina1-1-1{
+    width: 70%;
+    height: 100%;
+    margin: 0px auto;
+}
+
+.pagina1-1-cuerpo1{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+.pagina1-1-cuerpo2{
+    width: 50%;
+    height: 100%;
+    float: right;
+}
+
+.pagina1-1-cuerpo1 h1{
+    color: #000;
+    font-family:'Ubuntu', sans-serif;
+    font-size: 23px;
+    margin-top: 5%;
+    animation: titulo 10s ;
+}
+
+@keyframes titulo{
+    0%{
+        margin-left: 0%;
+        color: rgb(196, 192, 192)
+    }
+    45%{
+        margin-left: 10%;
+        color: #000;
+    }
+    55%{
+        margin-left: 10%;
+        color: #000;
+    }
+    100%{
+        margin-left: 0%;
+        color: #000;
+    }
+}
+
+.pagina1-1-cuerpo2 a{
+    text-decoration: none;
+    color: #000;
+    font-family: 'Sora', sans-serif;
+    font-size: 15px;
+    float: right;
+    margin-top: 3%;
+    padding: 2%;
+    transition: all 0.5s ease;
+}
+
+.pagina1-1-cuerpo2 a:hover{
+    color: rgb(26, 25, 25);
+    font-size: 17px;
+}
+
+.pagina1-2-cuerpo{
+    width: 30%;
+    height: 70%;
+    background-color: #fff;
+    position: absolute;
+    left: 35%;
+    top: 100px;
+    margin:0px auto;
+    -webkit-box-shadow: -1px 4px 25px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 4px 25px 1px rgba(0,0,0,0.75);
+    box-shadow: -1px 4px 25px 1px rgba(0,0,0,0.75);
+}
+
+.pagina1-2-foto{
+    width: 100%;
+    height: 50%;
+}
+
+.pagina1-2-texto{
+    width: 100%;
+    height: 25%;
+}
+
+.pagina1-2-botones{
+    width: 100%;
+    height: 25%;
+}
+
+.pagina1-2-foto img{
+    margin: 0px auto;
+    display: block;
+    width: 50%;
+    padding-top: 8%;
+}
+
+.pagina1-2-cuerpo23{
+    width: 80%;
+    height: 100%;
+    background-color: #fff;
+    margin: 0px auto;
+}
+
+.pagina1-2-texto h2{
+    text-align: center;
+    color: #000;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    padding-top: 5%;
+}
+
+.pagina1-2-texto p{
+    text-align: center;
+    color: #000;
+    font-family: 'Ubuntu', sans-serif;
+    padding-top: 1%;
+}
+
+.pagina1-2-cuerpo2{
+    width: 75%;
+    height: 100%;
+    background-color: #fff;
+    margin: 0px auto;
+}
+
+.pagina1-2-cuerpo2 .boton1{
+    text-decoration: none;
+    color: #fff;
+    font-family: var(--texto-titulo);
+    font-size: 17px;
+    float: left;
+    /*Diseño de boton*/
+    background-color: #000;
+    padding: 4%;
+    padding-left: 5%;
+    padding-right: 5%;
+    transition: all 0.5s ease;
+}
+
+.pagina1-2-cuerpo2 .boton2{
+    text-decoration: none;
+    color: #000;
+    font-family: var(--texto-titulo);
+    font-size: 17px;
+    float: right;
+
+    background-color: rgb(194, 194, 194);
+    padding: 4%;
+    padding-left: 5%;
+    padding-right: 5%;
+    transition: all 0.5s ease;
+}
+
+.pagina1-2-cuerpo2 .boton1:hover{
+    color: #000;
+    background-color: rgb(194, 194, 194);
+    border-radius: 5px;
+}
+
+.pagina1-2-cuerpo2 .boton2:hover{
+    color: rgb(194, 194, 194);
+    background-color: #000;
+    border-radius: 5px;
+}
+
+.pagina1-3-1{
+    width: 100%;
+    height: 85%;
+}
+
+.pagina1-3-2{/*BARRA DE CONTEO*/
+    width: 100%;
+    height: 15%;
+}
+
+.contador{
+    width: 100%;
+    height: 100%;
+    animation: barra 3s infinite;
+}
+
+@keyframes barra{
+    0%{
+        background-color: #000;
+    }
+    45%{
+        background-color: #fff;
+    }
+    55%{
+        background-color: #fff;
+    }
+    100%{
+        background-color: #000;
+    }
+}
+
+.pagina1-3-cuerpo{
+    width: 70%;
+    height: 100%;
+    margin: 0px auto;
+}
+
+.pagina1-cuerpo1{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+.pagina1-cuerpo2{
+    width: 50%;
+    height: 100%;
+    float: right;
+}
+
+.pagina1-cuerpo1 a{
+    color: #000;
+    padding: 1%;
+    font-size: 25px;
+    transition: all 0.5s ease;
+}
+
+.pagina1-cuerpo1 a:hover{
+    color: rgb(51, 50, 50);
+    font-size: 27px;
+}
+
+.pagina1-cuerpo2 a{
+    color: #000;
+    padding: 1%;
+    font-size: 17px;
+    text-decoration: none;
+    transition: all 0.5s ease;
+    float: right;
+    font-family: var(--texto-letra);
+    animation: cohete 3s infinite;
+}
+
+@keyframes cohete{
+    0%{
+        padding-right: 3%;
+    }
+    45%{
+        padding-right: 0%;
+    }
+    55%{
+        padding-right: 0%;
+    }
+    100%{
+        padding-right: 3%;
+    }
+}
